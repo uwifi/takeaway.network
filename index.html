@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TITLE</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+  <link rel='stylesheet' href='assets/css/custom.css'>
+  <!--[if lte IE 9]><!-->
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+</head>
+<body>
+
+  <div class="site">
+    <div class="site-loader _multi-circle-line">
+      <div class="site-loader-spinner"></div>
+    </div> <!-- .site-loader -->
+
+    <div class="site-bg">
+      <div class="site-bg-img"></div>
+      <div class="site-bg-video"></div>
+      <div class="site-bg-overlay"></div>
+      <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
+      <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
+      <div class="site-bg-border"></div>
+    </div> <!-- .site-bg -->
+
+    <div class="site-canvas">
+      <main class="site-main">
+        <div id="nav" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- for `> md` screen, control with `#nav` id -->
+
+        <div id="social" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="social-menu-container">
+                        <ul class="social-menu">
+                          <li class="social-item">
+                            <a href="https://www.facebook.com/" target="_blank">
+                              <i class="fa fa-facebook-square"></i>
+                              <span>Facebook</span>
+                            </a> <!-- social link -->
+                          </li>
+                          <li class="social-item">
+                            <a href="https://twitter.com/" target="_blank">
+                              <i class="fa fa-twitter-square"></i>
+                              <span>Twitter</span>
+                            </a>
+                          </li>
+                          <li class="social-item">
+                            <a href="https://plus.google.com/" target="_blank">
+                              <i class="fa fa-google-plus-square"></i>
+                              <span>Google</span>
+                            </a>
+                          </li>
+                          <li class="social-item">
+                            <a href="https://www.youtube.com/" target="_blank">
+                              <i class="fa fa-youtube-square"></i>
+                              <span>Youtube</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #social -->
+
+        <div id="home" class="section is-active">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div id="countdown_dashboard" class="countdown">
+                        <div class="dash-primary">
+                          <div class="dash days_dash">
+                            <div class="digit">0</div> <!-- remove this line for double figures -->
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                            <span class="dash_title">DAYs</span>
+                          </div>
+                        </div>
+                        <div class="dash-secondary">
+                          <div class="dash hours_dash">
+                            <span class="dash_title">Hours</span>
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                          </div>
+
+                          <div class="dash minutes_dash">
+                            <span class="dash_title">Minutes</span>
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                          </div>
+
+                          <div class="dash seconds_dash">
+                            <span class="dash_title">Seconds</span>
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                          </div>
+                        </div>
+                      </div> <!-- .countdown -->
+                      <p>
+                        We are currently working on a new website. Stay tuned for more information.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main> <!-- .site-main -->
+    </div>
+  </div>
+
+  <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+  <script src='assets/js/vendor/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/plugin.js'></script>
+  <script src='assets/js/variable.js'></script>
+  <script src='assets/js/main.js'></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!--
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+  -->
+
+</body>
+</html>
