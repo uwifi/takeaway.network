@@ -113,7 +113,7 @@ html {
 
 body {
   line-height: 1.8;
-  background-color: #131417;
+  background-color: #ff7f00;
   color: #fff;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
@@ -539,7 +539,7 @@ form._outline textarea {
   margin-top: -75px;
   margin-left: -75px;
   border: 3px solid transparent;
-  border-top-color: #131417;
+  border-top-color: #ff7f00;
   -webkit-border-radius: 50%;
           border-radius: 50%;
 }
@@ -561,7 +561,7 @@ form._outline textarea {
   bottom: 5px;
   left: 5px;
   border: 3px solid transparent;
-  border-top-color: #131417;
+  border-top-color: #ff7f00;
 }
 
 .site-loader._multi-circle-line .site-loader-spinner:after {
@@ -573,7 +573,7 @@ form._outline textarea {
   bottom: 15px;
   left: 15px;
   border: 3px solid transparent;
-  border-top-color: #131417;
+  border-top-color: #ff7f00;
 }
 
 @-webkit-keyframes spin {
@@ -1105,7 +1105,7 @@ body {
 
 .is-site-bg-img .site-bg-img {
   display: block;
-  background-image: url(../img/bg/site-bg-img.jpg);
+  /*background-image: url(../img/bg/site-bg-img.jpg);*/
 }
 
 .is-site-bg-slideshow .site-bg-img {
@@ -1149,10 +1149,10 @@ body {
 }
 
 .site-bg-overlay {
-  background: -webkit-radial-gradient(bottom, ellipse, rgba(107, 121, 138, 0.99) 0%, rgba(19, 20, 23, 0.99) 80%);
-  background: -o-radial-gradient(ellipse at bottom, rgba(107, 121, 138, 0.99) 0%, rgba(19, 20, 23, 0.99) 80%);
-  background: radial-gradient(ellipse at bottom, rgba(107, 121, 138, 0.99) 0%, rgba(19, 20, 23, 0.99) 80%);
-  background-color: rgba(19, 20, 23, 0.99);
+  background: -webkit-radial-gradient(bottom, ellipse, rgba(255, 200, 0, 0.99) 0%, rgba(203, 121, 35, 0.99) 80%);
+  background: -o-radial-gradient(ellipse at bottom, rgba(255, 200, 0, 0.99) 0%, rgba(203, 121, 35, 0.99) 80%);
+  background: radial-gradient(ellipse at bottom, rgba(255, 200, 0, 0.99) 0%, rgba(203, 121, 35, 0.99) 80%);
+  background-color: rgba(203, 121, 35, 0.99);
   /* dark overlay */
   opacity: 0.75;
 }
@@ -1267,14 +1267,14 @@ body {
 @media (min-width: 768px) {
   .is-site-bg-border .site-bg-border {
     margin: 35px;
-    border: 2px solid #fff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (min-width: 992px) {
   .is-site-bg-border .site-bg-border {
     margin: 50px;
-    border: 2px solid #fff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
   }
 }
 
