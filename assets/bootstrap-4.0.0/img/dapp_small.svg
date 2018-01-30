@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dapp_small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.38911033%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C98DFC" offset="0%"></stop>
+            <stop stop-color="#7F8BFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-801.000000, -1413.000000)">
+        <g id="dapp_small" transform="translate(800.000000, 1411.000000)">
+            <rect id="Rectangle-7" x="0" y="0" width="24" height="24"></rect>
+            <path d="M19.5971704,16.0268126 C19.7289299,16.0091299 19.8633988,16 20,16 C21.6568542,16 23,17.3431458 23,19 C23,20.6568542 21.6568542,22 20,22 C18.3431458,22 17,20.6568542 17,19 C17,17.7571138 17.755818,16.6907584 18.8329028,16.235485 L18.3185689,9.94218886 C17.5032191,9.80224847 16.7721993,9.41550947 16.2051619,8.86162431 L10.9999924,11.9911689 C10.9999975,11.994112 11,11.9970557 11,12 C11,14.7614237 8.76142375,17 6,17 C3.23857625,17 1,14.7614237 1,12 C1,9.23857625 3.23857625,7 6,7 C8.50489629,7 10.5795747,8.84198157 10.94342,11.2453293 L15.761622,8.34844424 C15.282546,7.6889657 15,6.87747893 15,6 C15,3.790861 16.790861,2 19,2 C21.209139,2 23,3.790861 23,6 C23,8.17419718 21.2653429,9.94324347 19.1045061,9.99866134 L19.5971704,16.0268126 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) "></path>
+        </g>
+    </g>
+</svg>

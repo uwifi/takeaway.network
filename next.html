@@ -13,12 +13,12 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
-        <img src="/assets/bootstrap-4.0.0/img/logo.png" class="img-fluid" />
+        <img src="/assets/bootstrap-4.0.0/img/logo.svg" class="img-fluid" />
       </a>
     </nav>
     <div class="row page-subject">
       <div class="col-12 col-sm-12 col-md-6 subject">
-        <h1 class="text-white">WaiMai Network</h1>
+        <h1 class="text-white font-weight-normal">WaiMai Network</h1>
         <p class="text-white">基于区块链技术的去中心化外卖服务网络</p>
         <a href="#" class="download text-center">下载白皮书</a>
       </div>
@@ -31,34 +31,83 @@
 
 <section class="page-content">
     <div class="container">
-        <p class="faq-title">Frequently Asked Questions</p>
+        <div class="ecosystem">
+            <div class="ecosystem-body">
+                <div class="card border-0 rounded-0 mb-11">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4 font-30">外卖生态系统</h3>
+                        <p class="card-text mb-md-0 font-14 text-md-center text-gray">外卖网络的节点，通过提供服务，在获得记账权之后，获得奖励；</p>
+                        <p class="card-text mb-md-0 font-14 text-md-center text-gray">生产者（餐厅）需要使用代币来获得订单，也就是支付网络信息服务费；</p>
+                        <p class="card-text font-14 text-md-center text-gray mb-11">对于消费者而言，我们目前并没有设计需要消费者支付代币的场景，但是未来，会扩展更多选择。</p>
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card border-0 text-center">
+                        <span class="card-img-top mb-2">
+                            <img class="h-100" src="/assets/bootstrap-4.0.0/img/money.svg" />
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">解决中心垄断</h5>
+                            <p class="card-text text-gray font-14">提升生产有效性，间接侵害消费者利益</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 text-center">
+                        <span class="card-img-top mb-2">
+                            <img class="h-100" src="/assets/bootstrap-4.0.0/img/p2p.svg" />
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">P2P网络节点</h5>
+                            <p class="card-text text-gray font-14">完成外卖订单交易，实现价值传递</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 text-center">
+                        <span class="card-img-top mb-2">
+                            <img class="h-100" src="/assets/bootstrap-4.0.0/img/dapp.svg" />
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">去中心化应用</h5>
+                            <p class="card-text text-gray font-14">整合全球外卖服务，打造区块链3.0落地应用</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="page-content">
+    <div class="container">
+        <p class="faq-title text-gray">Frequently Asked Questions</p>
         <div class="media faq-content">
-            <img src="/assets/bootstrap-4.0.0/img/faq.png" class="align-self-center mr-10 d-none d-md-inline" />
-            <ul class="list-unstyled media-body">
+            <span class="w-50 d-none d-md-inline align-self-center text-center">
+                <img src="/assets/bootstrap-4.0.0/img/faq.svg" class="img-fluid" />
+            </span>
+            <ul class="list-unstyled media-body pl-md-5">
                 <li class="media">
-                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/food.png" />
-                    <div class="media-body">
+                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/food.svg" />
+                    <div class="media-body text-gray">
                         <h6 class="mt-0">餐厅的参与动力？</h6>
                         餐厅以最小／最适合的成本获得外卖订单
                     </div>
                 </li>
                 <li class="media">
-                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/dapp_small.png" />
-                    <div class="media-body">
+                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/dapp_small.svg" />
+                    <div class="media-body text-gray">
                         <h6 class="mt-0">参与节点建设的动力？</h6>
                         参与节点获得记账权奖励带币
                     </div>
                 </li>
                 <li class="media">
-                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/customer.png" />
-                    <div class="media-body">
+                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/customer.svg" />
+                    <div class="media-body text-gray">
                         <h6 class="mt-0">消费者的参与动力？</h6>
                         消费者可以间接获得相对廉价和优质的服务
                     </div>
                 </li>
                 <li class="media">
-                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/coin.png" />
-                    <div class="media-body">
+                    <img class="mr-3" src="/assets/bootstrap-4.0.0/img/coin.svg" />
+                    <div class="media-body text-gray">
                         <h6 class="mt-0">代币的价值何在？</h6>
                         代币是信息服务的价值，并且通过代币的形式，信息服务的价值能够最恰如其分的体现，最终达成节点的收益和餐厅的支出较佳的平衡
                     </div>
@@ -67,6 +116,7 @@
         </div>
     </div>
 </section>
+
 <footer class="page-footer">
     <div class="container text-center">
         <ul class="list-inline">
@@ -74,7 +124,7 @@
             <li class="list-inline-item"><img src="/assets/bootstrap-4.0.0/img/ic_qq_default.svg" /></li>
             <li class="list-inline-item"><img src="/assets/bootstrap-4.0.0/img/ic_wecaht_default.svg" /></li>
         </ul>
-        <p class="copyright">Copyright © 2018 MobiPromo Ltd.</p>
+        <p class="copyright">Copyright © 2018 Takeaway.network & Waimai.network</p>
     </div>
 </footer>
 </body>

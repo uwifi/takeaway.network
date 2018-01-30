@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>food</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="83.882582%" y1="90.198268%" x2="14.1770773%" y2="0.467385795%" id="linearGradient-1">
+            <stop stop-color="#FF7460" offset="0%"></stop>
+            <stop stop-color="#FF8F00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-800.000000, -1328.000000)">
+        <g id="food" transform="translate(800.000000, 1327.000000)" fill="url(#linearGradient-1)">
+            <path d="M24,18.1110672 L0,18.1110672 L0,16.0389137 C0,9.64854799 4.97343708,6.84122315 11.2499939,6.45207327 C11.2453106,6.5142816 11.2499939,2.50393112 11.2499939,2.50393112 L9.59992195,3.44440978 C9.18506232,3.44440978 9.00007318,2.1648659 9.00007318,1.7494812 C9.00007318,1.3340965 9.33512208,1 9.74998171,1 L14.2500183,1 C14.6648779,1 15.000122,1.3340965 15.000122,1.7494812 C15.000122,2.1648659 14.8149377,3.44440978 14.4000781,3.44440978 L12.7502012,2.50393112 L12.7502012,6.45207327 C19.0267581,6.84122315 24,9.64854799 24,16.0389137 L24,18.1110672 Z M23.9876516,23 L0.182941935,23 C0.182941935,23 -0.228541935,20.6871854 0.182941935,20.6871854 L23.9876516,20.6871854 L23.9876516,23 Z" id="Fill-4"></path>
+        </g>
+    </g>
+</svg>
