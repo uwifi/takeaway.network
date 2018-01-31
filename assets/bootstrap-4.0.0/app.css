@@ -54,27 +54,27 @@ body {
   margin-bottom: 1.2rem !important;
 }
 
-.card-group {
+.ecosystem .card-group {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.card-group .card-title {
+.ecosystem .card-group .card-title {
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin-bottom: 0.5rem;
 }
 
-.card-group .card-img-top {
+.ecosystem .card-group .card-img-top {
   height: 4.5rem;
 }
 
-.card-group .card-body {
+.ecosystem .card-group .card-body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.card-body {
+.ecosystem .card-body {
   padding-left: 0;
   padding-right: 0;
 }
@@ -101,6 +101,20 @@ body {
 
 .ecosystem-body > .card {
   border-bottom: 1px solid #E8E8E8 !important;
+}
+
+.team {
+  margin-bottom: 1.5rem;
+}
+
+.team .card {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+  border-radius: 8px;
+}
+
+.team img {
+  width: 5rem;
+  height: 5rem;
 }
 
 .faq-title {
@@ -184,6 +198,11 @@ li.media:not(:last-child) {
 
   .ecosystem {
     margin-bottom: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .team {
     padding-left: 1rem;
     padding-right: 1rem;
   }
