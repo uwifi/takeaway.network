@@ -37,11 +37,11 @@ body {
 }
 
 .text-gray {
+  font-weight: 300;
   color: #8E8E93;
 }
 
 .font-14 {
-  font-size: .875rem;
   line-height: 1.375rem;
 }
 
@@ -85,7 +85,7 @@ body {
   font-size: 1rem;
   line-height: 1.75rem;
   background: #FFFFFF;
-  color: #CC5500;
+  color: #ED7200;
   box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
   border-radius: 100px;
 }
@@ -103,18 +103,83 @@ body {
   border-bottom: 1px solid #E8E8E8 !important;
 }
 
-.team {
-  margin-bottom: 1.5rem;
+.team-title {
+  font-size: 1.88rem;
+  line-height: 2.63rem;
+  margin-bottom: 1rem;
 }
 
-.team .card {
+.carousel {
+  margin-bottom: 8rem;
+}
+
+.carousel .row {
+  padding: 1rem 1rem 2rem;
+}
+
+.carousel-indicators {
+  bottom: -3rem;
+}
+
+.carousel-indicators > li {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  margin-right: 12px;
+  background-color: #D8D8D8;
+}
+
+.carousel-indicators > li.active {
+  background-color: #EC6F00;
+}
+
+.carousel .card {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+  border-radius: 8px;
+  min-height: 16rem;
+}
+
+.carousel .media {
+  margin-bottom: 1.44rem;
+}
+
+.carousel .media img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.carousel .media-body {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.carousel .media h5 {
+  line-height: 2rem;
+}
+
+.carousel .media small {
+  line-height: 1.25rem;
+  color: #879EB2;
+}
+
+.counselor {
+  padding: 1rem;
+  margin-bottom: 7.5rem;
+}
+
+.counselor-body {
+  padding: 2rem 4rem;
   box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
   border-radius: 8px;
 }
 
-.team img {
-  width: 5rem;
-  height: 5rem;
+.counselor .media {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.counselor .media:not(:last-child) {
+  border-bottom: 1px solid #E8E8E8;
 }
 
 .faq-title {
@@ -145,25 +210,22 @@ li.media:not(:last-child) {
 }
 
 .media-body {
-  font-size: .875rem;
   line-height: 1.25rem;
 }
 
 .media-body h6 {
+  font-size: 1.125rem;
   line-height: 1.5rem;
   color: #333333;
 }
 
 .page-footer {
   background: #F2F2F2;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .copyright {
-  color: rgba(0,0,0, .38);
   font-size: 0.875rem;
-  margin-bottom: 0;
+  line-height: 5rem;
 }
 
 @media (min-width: 576px) {
@@ -197,7 +259,7 @@ li.media:not(:last-child) {
   }
 
   .ecosystem {
-    margin-bottom: 2.5rem;
+    margin-bottom: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -216,12 +278,12 @@ li.media:not(:last-child) {
 
   .download {
     display: inline-block;
+    font-size: 1.25rem;
     width: 12.5rem;
     padding: 1.125rem 0;
   }
 
-  .faq-content,
-  .faq-content > .media-body {
+  .faq-content {
     padding-bottom: 3rem;
   }
 
@@ -233,9 +295,8 @@ li.media:not(:last-child) {
     margin-bottom: 2rem;
   }
 
-  .page-footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  .copyright {
+    line-height: 10rem;
   }
 }
 
