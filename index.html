@@ -4,168 +4,304 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Decentralized Take-Away Network</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-  <link rel="icon" href="assets/img/favicon32x32.ico">
-  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='assets/css/vendor.css'>
-  <link rel='stylesheet' href='assets/css/theme_dark.css?v2'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
-  <link rel='stylesheet' href='assets/css/custom.css'>
-  <!--[if lte IE 9]><!-->
-  <script src='assets/js/vendor/html5shiv.min.js'></script>
-  <!--<![endif]-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="icon" href="assets/img/favicon32x32.ico">
+<link rel="stylesheet" href="assets/bootstrap-4.0.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/bootstrap-4.0.0/app.css" />
+<title>WaiMai.Network/TakeAway.Network</title>
 </head>
+
 <body>
-
-  <div class="site">
-    <div class="site-loader _multi-circle-line">
-      <div class="site-loader-spinner"></div>
-    </div> <!-- .site-loader -->
-
-    <div class="site-bg">
-      <div class="site-bg-img"></div>
-      <div class="site-bg-video"></div>
-      <div class="site-bg-overlay"></div>
-      <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
-      <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
-      <div class="site-bg-border"></div>
-    </div> <!-- .site-bg -->
-
-    <div class="site-canvas">
-      <main class="site-main">
-        <div id="nav" class="section">
-          <div class="section-table">
-            <div class="section-table-cell">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="col-inner">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- for `> md` screen, control with `#nav` id -->
-
-        <div id="social" class="section">
-          <div class="section-table">
-            <div class="section-table-cell">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="col-inner">
-                      <div class="social-menu-container">
-                        <ul class="social-menu">
-                          <li class="social-item">
-                            <a href="https://www.facebook.com/" target="_blank">
-                              <i class="fa fa-facebook-square"></i>
-                              <span>Facebook</span>
-                            </a> <!-- social link -->
-                          </li>
-                          <li class="social-item">
-                            <a href="https://twitter.com/" target="_blank">
-                              <i class="fa fa-twitter-square"></i>
-                              <span>Twitter</span>
-                            </a>
-                          </li>
-                          <li class="social-item">
-                            <a href="https://plus.google.com/" target="_blank">
-                              <i class="fa fa-google-plus-square"></i>
-                              <span>Google</span>
-                            </a>
-                          </li>
-                          <li class="social-item">
-                            <a href="https://www.youtube.com/" target="_blank">
-                              <i class="fa fa-youtube-square"></i>
-                              <span>Youtube</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- #social -->
-
-        <div id="home" class="section is-active">
-          <div class="section-table">
-            <div class="section-table-cell">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="col-inner">
-                      <div id="countdown_dashboard" class="countdown">
-                        <div class="dash-primary">
-                          <div class="dash days_dash">
-                            <div class="digit">0</div> <!-- remove this line for double figures -->
-                            <div class="digit">0</div>
-                            <div class="digit">0</div>
-                            <span class="dash_title">DAYs</span>
-                          </div>
-                        </div>
-                        <div class="dash-secondary">
-                          <div class="dash hours_dash">
-                            <span class="dash_title">Hours</span>
-                            <div class="digit">0</div>
-                            <div class="digit">0</div>
-                          </div>
-
-                          <div class="dash minutes_dash">
-                            <span class="dash_title">Minutes</span>
-                            <div class="digit">0</div>
-                            <div class="digit">0</div>
-                          </div>
-
-                          <div class="dash seconds_dash">
-                            <span class="dash_title">Seconds</span>
-                            <div class="digit">0</div>
-                            <div class="digit">0</div>
-                          </div>
-                        </div>
-                      </div> <!-- .countdown -->
-                      <h1>Decentralized Take-Away Network, to build a more fair economics!</h1>
-                      <p>
-                        We are currently working on. Stay tuned for more information.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </main> <!-- .site-main -->
+<header class="page-header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="assets/bootstrap-4.0.0/img/logo.svg" class="img-fluid" />
+      </a>
+    </nav>
+    <div class="row page-subject">
+      <div class="col-12 col-sm-12 col-md-6 subject">
+        <h1 class="text-white font-weight-normal">WaiMai Network</h1>
+        <p class="text-white">基于区块链技术的去中心化外卖服务网络</p>
+        <a href="#" class="download text-center">下载白皮书</a>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 restaurant">
+        <img src="assets/bootstrap-4.0.0/img/restaurant.png" class="img-fluid" />
+      </div>
     </div>
   </div>
+</header>
 
-  <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
-  <script src='assets/js/vendor/bootstrap.min.js'></script>
-  <script src='assets/js/vendor/plugin.js'></script>
-  <script src='assets/js/variable.js'></script>
-  <script src='assets/js/main.js'></script>
+<section class="page-content">
+    <div class="container">
+        <div class="ecosystem">
+            <div class="ecosystem-body">
+                <div class="card border-0 rounded-0 mb-11">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4 font-30">外卖生态系统</h3>
+                        <p class="card-text mb-md-0 font-14 text-md-center text-gray">外卖网络的节点，通过提供服务，在获得记账权之后，获得奖励；</p>
+                        <p class="card-text mb-md-0 font-14 text-md-center text-gray">生产者（餐厅）需要使用代币来获得订单，也就是支付网络信息服务费；</p>
+                        <p class="card-text font-14 text-md-center text-gray mb-11">对于消费者而言，我们目前并没有设计需要消费者支付代币的场景，但是未来，会扩展更多选择。</p>
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card border-0 text-center">
+                        <span class="card-img-top mb-2">
+                            <img class="h-100" src="assets/bootstrap-4.0.0/img/money.svg" />
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">解决中心垄断</h5>
+                            <p class="card-text text-gray font-14">提升生产有效性，间接侵害消费者利益</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 text-center">
+                        <span class="card-img-top mb-2">
+                            <img class="h-100" src="assets/bootstrap-4.0.0/img/p2p.svg" />
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">P2P网络节点</h5>
+                            <p class="card-text text-gray font-14">完成外卖订单交易，实现价值传递</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 text-center">
+                        <span class="card-img-top mb-2">
+                            <img class="h-100" src="assets/bootstrap-4.0.0/img/dapp.svg" />
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title">去中心化应用</h5>
+                            <p class="card-text text-gray font-14">整合全球外卖服务，打造区块链3.0落地应用</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <!--
-  <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-  </script>
-  -->
+<!-- FAQ -->
+<section class="page-content">
+    <div class="container">
+        <p class="faq-title text-gray">Frequently Asked Questions</p>
+        <div class="media faq-content">
+            <span class="w-50 d-none d-md-inline align-self-center text-center">
+                <img src="assets/bootstrap-4.0.0/img/faq.svg" class="img-fluid" />
+            </span>
+            <ul class="list-unstyled media-body pl-md-5">
+                <li class="media">
+                    <img class="mr-3" src="assets/bootstrap-4.0.0/img/food.svg" />
+                    <div class="media-body text-gray">
+                        <h6 class="mt-0">餐厅的参与动力？</h6>
+                        餐厅以最小／最适合的成本获得外卖订单
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="mr-3" src="assets/bootstrap-4.0.0/img/dapp_small.svg" />
+                    <div class="media-body text-gray">
+                        <h6 class="mt-0">参与节点建设的动力？</h6>
+                        参与节点获得记账权奖励带币
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="mr-3" src="assets/bootstrap-4.0.0/img/customer.svg" />
+                    <div class="media-body text-gray">
+                        <h6 class="mt-0">消费者的参与动力？</h6>
+                        消费者可以间接获得相对廉价和优质的服务
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="mr-3" src="assets/bootstrap-4.0.0/img/coin.svg" />
+                    <div class="media-body text-gray">
+                        <h6 class="mt-0">代币的价值何在？</h6>
+                        代币是信息服务的价值，并且通过代币的形式，信息服务的价值能够最恰如其分的体现，最终达成节点的收益和餐厅的支出较佳的平衡
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</section>
 
+<section class="page-content d-none d-lg-block">
+    <div class="container">
+        <h2 class="team-title text-center">开发团队</h2>
+        <div id="carousel" data-interval="false" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/003.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">刘翰儒</h5>
+                                    <small>区块链开发工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">北京大学化学系精英，同时自学软件开发，擅长前端Web开发、NodeJS服务、PostgresSQL、Redis、Ionic2-android、DB2数据库管理、JSP页面开发、Java程序开。毕业后主要主导视觉应用领域开发，现专注于区块链项目落地应用。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/001.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">王泷正</h5>
+                                    <small>项目产品设计</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">美国印第安纳大学经济学、数学专业毕业，2016年接触外汇投资，2017年年初开始研究区块链与数字货币。近年主要参与设计数字领域应用，现专注于区块链项目落地应用。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/006.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">李永攀</h5>
+                                    <small>区块链开发工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">多年互联网金融开发经验。参与主导多个日活百万级的网站和APP的开发；搭建基于区块链的底层架构，实现公链、侧链、私有链等多种逻辑，供应用底层调度使用。</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/005.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">陈金桥</h5>
+                                    <small>区块链开发工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">有着多年技术开发经验，曾参与过区块链项目，对区块链技术有独特的热爱，立志研究区块链的革新。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/007.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">于宝龙</h5>
+                                    <small>项目测试工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">曾参与2个落地的区块链相关项目，熟悉区块链相关的功能、技术、安全等评测标准，现专注于区块链底层的测试。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/002.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">周笑</h5>
+                                    <small>智能硬件研发工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">从事多年的智能硬件研发工作，目前致力于开发区块链技术在智能硬件中的应用落地。</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/008.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">董国涛</h5>
+                                    <small>运维工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">曾参与区块链交易平台的构建，具有丰富的系统运维、网站架构部署经验。热衷于区块链技术和新兴技术的研究。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card border-0">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/bootstrap-4.0.0/img/004.png" class="rounded-circle mr-3" />
+                                <div class="media-body">
+                                    <h5 class="my-0">姜玉双</h5>
+                                    <small>前端开发工程师</small>
+                                </div>
+                            </div>
+                          <p class="card-text font-14 text-gray">多年的企业级应用开发经验，2016年接触区块链，着手设计开发数字货币交易平台。目前从事区块链产品的相关工作。</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-content">
+    <div class="container">
+        <h2 class="team-title text-center">顾问团队</h2>
+        <div class="counselor">
+            <div class="counselor-body">
+                <div class="media">
+                    <div class="d-inline-block mr-4 align-middle" style="width: 80px;">
+                        <img src="assets/bootstrap-4.0.0/img/101.png" class="img-fluid rounded-circle mb-3" />
+                        <h5 class="text-center">吴斌</h5>
+                    </div>
+                    <div class="media-body text-gray">
+                        <p>清华大学电机工程系硕士毕业。</p>
+                        <p>曾在清华大学任教，主要方向为互联网应用的研究与开发。</p>
+                        <p>MobiPromo Limited创始人之一，MobiPromo Limited是世界领先的移动互联网近场营销平台提供商。</p>
+                        <p>新三板公司北京三意时代科技股份有限公司（现更名为北京深中幼国际教育科技股份有限公司）的创始人。</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="d-inline-block mr-4 align-middle" style="width: 80px;">
+                        <img src="assets/bootstrap-4.0.0/img/100.png" class="img-fluid rounded-circle mb-3" />
+                        <h5 class="text-center">孙冬冬</h5>
+                    </div>
+                    <div class="media-body text-gray">
+                        <p>2003年进入电子商务领域，创造杀毒软件单个年度在线销售额超过亿元，后转战企业服务市场，服务上千家企业客户，带领公司业务连续多年保持增长。</p>
+                        <p>曾任江民科技事业部总经理、副总，现任数字星空总裁。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="page-footer">
+    <div class="container text-center">
+        <p class="copyright mb-0 text-gray">Copyright © 2018 Takeaway.network & Waimai.network</p>
+    </div>
+</footer>
+<script src="assets/bootstrap-4.0.0/jquery-3.0.0.slim.min.js"></script>
+<script src="assets/bootstrap-4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
