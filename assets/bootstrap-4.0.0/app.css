@@ -1,6 +1,15 @@
+/**
+ * Fix fonts that render as bold in Firefox
+ *
+ * Put this near the top of your style.css
+ * Before any overriding styles
+ */
 html {
+  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
+
 
 body {
   color: #333333;
@@ -41,7 +50,6 @@ body {
 }
 
 .text-gray {
-  font-weight: 300;
   color: #8E8E93;
 }
 
